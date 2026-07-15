@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ledgerline — Legal &amp; Support</title>
+<meta name="description" content="Privacy policy, terms of use and support for Ledgerline.">
+<style>
+  :root{
+    --ink:#1A2421; --paper:#F4F6F2; --card:#FFFFFF; --line:#DDE3DC;
+    --muted:#6E7A73; --income:#157A4A; --warn:#9A6B14; --warnSoft:#F6EEDB;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.65}
+  .wrap{max-width:640px; margin:0 auto; padding:56px 20px 72px}
+  h1{font-size:34px; letter-spacing:-0.02em; margin:0 0 4px; font-weight:700}
+  .tag{color:var(--muted); margin:0 0 32px}
+  .links{display:grid; gap:12px; margin-bottom:32px}
+  .link{
+    display:block; background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:16px 18px; text-decoration:none; color:var(--ink);
+  }
+  .link:hover{border-color:var(--ink)}
+  .link b{display:block; font-size:17px; font-weight:600}
+  .link span{color:var(--muted); font-size:14px}
+  h2{font-size:15px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:32px 0 10px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 20px}
+  .todo{background:var(--warnSoft); border-color:var(--warn)}
+  code{background:#EFF3EE; padding:1px 5px; border-radius:4px; font-size:14px}
+  ul{margin:8px 0; padding-left:20px}
+  li{margin:5px 0}
+  footer{margin-top:40px; color:var(--muted); font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Ledgerline</h1>
+  <p class="tag">See what your balance will be, months ahead.</p>
+
+  <div class="links">
+    <a class="link" href="./privacy.html">
+      <b>Privacy Policy</b>
+      <span>What the app does with your data. Short version: it stays on your phone.</span>
+    </a>
+    <a class="link" href="./terms.html">
+      <b>Terms of Use</b>
+      <span>Licence, trial, subscription and refund terms.</span>
+    </a>
+  </div>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p style="margin:0">
+      Email <b><a href="mailto:theledgerlineapp@gmail.com">theledgerlineapp@gmail.com</a></b> and you’ll get a reply within a couple of days.
+    </p>
+  </div>
+
+  <footer>© <span id="y">2026</span> Nicholas Vo</footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</div>
+</body>
+</html>
